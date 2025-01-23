@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Glossary - EvoqDev</title>
+    <script src="js/theme-init.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script type="module" src="js/glossary.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">evoq<span class="highlight">dev</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Tech News</a>
+                <div class="dropdown-content">
+                    <a href="coding-news.html">Coding News</a>
+                    <a href="ai-news.html">AI News</a>
+                </div>
+            </div>
+            <a href="glossary.html" class="active">Glossary</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <h1>Tech Glossary</h1>
+            <p>Your comprehensive guide to technical terms and concepts</p>
+        </section>
+
+        <section class="glossary-search">
+            <div class="search-container">
+                <input type="text" id="glossary-search" placeholder="Search terms...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </section>
+
+        <section class="alphabet-nav">
+            <div class="letter-grid" id="letter-grid">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="glossary-content" id="glossary-content">
+            <!-- Will be populated by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>evoqdev</h3>
+                <p>Evolving technology, one line at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="coding-news.html">Coding News</a></li>
+                    <li><a href="ai-news.html">AI News</a></li>
+                    <li><a href="glossary.html">Glossary</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 evoqdev. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="module" src="js/dom-ready.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

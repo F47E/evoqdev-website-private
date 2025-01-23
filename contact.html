@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EvoqDev</title>
+    <script src="js/theme-init.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">evoq<span class="highlight">dev</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Tech News</a>
+                <div class="dropdown-content">
+                    <a href="coding-news.html">Coding News</a>
+                    <a href="ai-news.html">AI News</a>
+                </div>
+            </div>
+            <a href="glossary.html">Glossary</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <h1>Get in Touch</h1>
+            <p>Have questions or suggestions? Let's connect!</p>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-info">
+                <div class="social-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Check out my projects and contributions</p>
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">@yourusername</a>
+                </div>
+                <div class="social-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>For business inquiries</p>
+                    <a href="mailto:your.email@example.com" class="social-link">your.email@example.com</a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>evoqdev</h3>
+                <p>Evolving technology, one line at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="coding-news.html">Coding News</a></li>
+                    <li><a href="ai-news.html">AI News</a></li>
+                    <li><a href="glossary.html">Glossary</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 evoqdev. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="module" src="js/dom-ready.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
